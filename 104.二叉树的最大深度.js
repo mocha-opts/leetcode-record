@@ -76,4 +76,23 @@ var maxDepth = function (root) {
   return res;
 };
 
+// let depth = 0; //遍历到的节点的深度
+// let res = 0; //最大深度
+// function getDepth(root) {
+//   traverse(root);
+//   return res;
+// }
+// var traverse = function (root) {
+//   if (root == null) {
+//     return;
+//   }
+//   depth++;
+//   if (root.left !== null && root.right !== null) {
+//     res = Math.max(res, depth);
+//   }
+//   traverse(root.left);
+//   traverse(root.right);
+//   depth--;
+// };
+
 // @lc code=end
